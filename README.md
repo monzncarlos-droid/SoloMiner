@@ -102,6 +102,13 @@ SoloMiner is a lightweight, native macOS application that enables solo Bitcoin m
       "port": 21496,
       "isEnabled": false,
       "priority": 1
+    },
+    {
+      "name": "BTC PoW Lab",
+      "host": "stratum.btcpowlab-pool.com",
+      "port": 3333,
+      "isEnabled": false,
+      "priority": 2
     }
   ],
   "throttle": {
@@ -133,6 +140,7 @@ SoloMiner works with any Stratum v1 compatible solo mining pool:
 |------|------|------|-------|
 | CKPool Solo | `solo.ckpool.org` | 3333 | Popular solo mining pool |
 | Public Pool | `public-pool.io` | 21496 | Community solo pool |
+| BTC PoW Lab | `stratum.btcpowlab-pool.com` | 3333 | Hybrid Solo pool with public status and proof records |
 
 ## Performance Modes
 
