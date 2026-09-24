@@ -25,6 +25,14 @@
       "port": 21496,
       "isEnabled": false,
       "priority": 1
+    },
+    {
+      "id": "btc-pow-lab",
+      "name": "BTC PoW Lab",
+      "host": "stratum.btcpowlab-pool.com",
+      "port": 3333,
+      "isEnabled": false,
+      "priority": 2
     }
   ],
   "throttle": {
